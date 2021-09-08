@@ -2,7 +2,7 @@
 
 
 /* change the font family and spacing as per your project font */
-.footer{
+/* .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
@@ -13,4 +13,144 @@
 	font-family: Nunito Sans;
     font-style: normal;
     
-}
+} */
+
+*{
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: bolder;
+	
+	}
+  body{
+	/* justify-content:center; */
+	display: flex;
+	/* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHtH120yZB8YtbfPfHFmZwFJVpCIOzNx3ttw&usqp=CAU"); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-position: center; */
+	margin-left: 5%;
+	/* margin-right: 50%; */
+	background-image:url("pk.png");
+	
+  }
+  
+  .table_style{
+  font-size: x-large;
+  width: 1200px;
+  height: 600px;
+  justify-content:last baseline;
+  background-color: white;
+  text-align:center;
+  text-align: left;
+  border-collapse: collapse;  
+  box-shadow:5px 3px 3px #bebebe;
+  }
+  
+  .heading{
+  /* font-family:verdana; */
+  font-weight:bold;
+  
+  }
+  span{
+  color: rgb(28, 180, 207);
+  font-size: x-large;
+  
+  }
+  #row{
+  border-bottom:rgb(212, 210, 210) solid;
+  border-radius: 1%;
+  padding: 10px;
+  }
+  tr,td{
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  
+  }
+  #grey{
+  color: grey;
+  }
+  #headi{
+	color: white;
+  }
+  #redcolor{
+	background-color: #e44848;
+  }
+  #logo{
+	   float:right;
+	   align-items: flex-end;
+	   margin-left: 1100px;
+	  
+	   
+  }
+  p#topic{
+	/* text-shadow: 3px 3px 1px gray; */
+	text-shadow:2px 1px 3px grey;
+	font-size:xx-large;
+	font-weight: bold;
+	font-family:'Heebo', sans-serif;
+  }
+  p.gre{
+	color: grey;
+	font-family:'Heebo', sans-serif;
+	font-weight: lighter;
+	font-size: large;
+	
+  
+  }
+  .mid{
+  
+	text-align: center;
+	
+  }
+  
+  .rigth{
+	text-align: right;
+	padding-right: 30px;
+  }
+  
+  .popup {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	zoom: 1.0;
+  }
+  .popup .popuptext {
+	visibility: hidden;
+	width: 100%;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(69, 162, 250) transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+	width: 100%;
+  }
